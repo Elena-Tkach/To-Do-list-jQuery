@@ -1,0 +1,97 @@
+.list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.list__item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.list__item:last-child {
+    margin-bottom: 0;
+}
+
+.item__header {
+    padding: 10px 12px 10px 20px;
+
+    border-bottom: 1px solid #f7f7f7;
+    background-color: #fff;
+}
+
+.header__title {
+    font-size: 15px;
+    font-weight: normal;
+
+    display: inline;
+
+    padding-right: 15px;
+
+    vertical-align: 50%;
+}
+
+.button__arrow,
+.button__clear,
+.js-arrowUp {
+    width: 30px;
+    height: 30px;
+
+    cursor: pointer;
+
+    border: 1px solid  #fff;
+}
+
+.button__arrow,
+.js-arrowUp {
+    float: right;
+
+    background: url(../img/стрелка.png) no-repeat center;
+}
+
+.button__arrow:focus {
+    border: 1px solid  #bbbaba;
+    border-color: #bbbaba;
+    outline: none;
+}
+
+.button__arrow {
+    transition: .3s linear;
+}
+
+
+.js-arrowUp {
+    transition: .3s linear;
+    transform: rotate(180deg);
+}
+
+
+
+.button__clear {
+    background: url(../img/clear-button.png) no-repeat center;
+}
+
+.button__clear:focus {
+    border: 1px solid  #bbbaba;
+    border-color: #bbbaba;
+    outline: none;
+}
+
+
+
+
+.article__desc {
+    padding: 5px 15px 25px 20px;
+
+    background-color: #fff;;
+}
+
+.article__text {
+    font-size: 14px;
+
+    margin: 0;
+    padding-bottom: 15px;
+
+    color: #8993ad;
+}

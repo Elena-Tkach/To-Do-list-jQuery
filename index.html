@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Список дел</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+	<link rel="shortcut icon" type="text/css" href="img/favicon.ico">
+</head>
+
+<body class="body">
+	<main class="clearfix">
+		<h1 class="visually-hidden">Список дел</h1>
+
+		<section class="section-left">
+			<h2 class="section-left__title">Список дел:</h2>
+			<p class="text__none js-textnone">Список пуст...</p>
+
+			<ul class="list js-list">
+			</ul>
+		</section>
+
+		<section class="section-right">
+			<h2 class="section-right__title">Добавить новое дело</h2>
+
+			<form class="form js-form">
+				<label class="comments__title" for="name"><sup>*</sup> Название</label>
+				<input id="name" class="form__title js-formtitle" required name="case-Name" type="text">
+
+
+				<label class="comments__description" for="description"><sup>*</sup> Описание</label>
+				<textarea id="description" class="form__textarea js-formtextarea" required
+					name="description-case"></textarea>
+
+				<button class="button js-btn" type="submit">Добавить дело</button>
+			</form>
+		</section>
+	</main>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.section-left {
+    margin-right: 20px;
+}
+
+.section-left,
+.section-right {
+    float: left;
+
+    width: 470px;
+}
+
+.section-left__title,
+.section-right__title {
+    font-size: 21px;
+    font-weight: normal;
+
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.text__none {
+    margin-top: 45px;
+
+    color: #8993ad;
+}
